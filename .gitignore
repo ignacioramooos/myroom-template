@@ -1,0 +1,39 @@
+# MyRoom .gitignore — Keep it clean and secure
+
+# Private vault
+PRIVATE/
+private/
+*.secret
+*.key
+*.pem
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+
+# System and OS files
+.DS_Store
+Thumbs.db
+
+# Temporary & cache files
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+env/
+dist/
+build/
+.cache/
+*.tmp
+*.log
+
+# Editor local states
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
